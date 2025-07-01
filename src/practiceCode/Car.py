@@ -11,7 +11,4 @@ class Car:
     # vehicle weight
     def getVehicleWeight(self, fuelTankCapacity):
         return str(100 * self.seat + fuelTankCapacity + 
-                    self.wheel + self.steering + self.windows) + " kg"
-
-class Aboli:
-    pass
+                   self.wheel + self.steering + self.windows) + " kg"
