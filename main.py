@@ -1,6 +1,7 @@
 # from src.practiceCode.Car import Car
 # from src.practiceCode.Car import Aboli
-from src.practiceCode.Perimeter import Perimeter
+# from src.practiceCode.Perimeter import Perimeter
+import src.practiceCode.Perimeter as Perimeter
 
 # baleno = Car(4, 'Maruti')
 # print(baleno.seat)
@@ -18,8 +19,9 @@ from src.practiceCode.Perimeter import Perimeter
 # abc = cp.Aboli()
 
 # create instance of perimeter
+# p = perimeter.Perimeter('Circle', 20)
 p = Perimeter('Circle', 20)
 # print(p.calculateArea())
 # print(p.calculatePerimeter())
-del p.shape
-del p
+# del p.shape
+# del p

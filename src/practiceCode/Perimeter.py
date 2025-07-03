@@ -1,6 +1,12 @@
-from src.practiceCode.Area import Area
+# from src.practiceCode.Area import Area
 import math
-class Perimeter(Area):
+class Perimeter():
+
+    def __init__(self, shape, side1, side2=None):
+        self.shape = shape
+        self.side1 = side1
+        self.side2 = side2
+        # Area.__init__(self, shape, side1, side2)
 
     def calculatePerimeter(self):
         match self.shape:
@@ -17,4 +23,5 @@ class Perimeter(Area):
             case _:
                 pass
 
-
+if __name__ == "__main__":
+    obj = Perimeter()
