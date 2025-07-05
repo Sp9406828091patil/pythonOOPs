@@ -3,11 +3,14 @@
 # side1, side2 - rectange, isocelec, rightAngle
 # side1, side2, side3 - scalar
 
+from src.practiceCode.pythonDecorator1 import CustomDecorator
+
 import math
 
 class Area:
 
     # initialize class
+    @CustomDecorator
     def __init__(self, shape, side1, side2 = 0, side3 = 0):
         self.shape = shape
         self.side1 = side1

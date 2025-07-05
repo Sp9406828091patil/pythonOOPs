@@ -1,12 +1,9 @@
-# from src.practiceCode.Area import Area
+from src.practiceCode.Area import Area
 import math
-class Perimeter():
+class Perimeter(Area):
 
     def __init__(self, shape, side1, side2=None):
-        self.shape = shape
-        self.side1 = side1
-        self.side2 = side2
-        # Area.__init__(self, shape, side1, side2)
+        Area.__init__(self, shape, side1, side2)
 
     def calculatePerimeter(self):
         match self.shape:

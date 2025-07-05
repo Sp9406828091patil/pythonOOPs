@@ -20,7 +20,7 @@ import src.practiceCode.Perimeter as Perimeter
 
 # create instance of perimeter
 # p = perimeter.Perimeter('Circle', 20)
-p = Perimeter('Circle', 20)
+p = Perimeter.Perimeter(1234, 20)
 # print(p.calculateArea())
 # print(p.calculatePerimeter())
 # del p.shape
